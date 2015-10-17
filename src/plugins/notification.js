@@ -1,10 +1,5 @@
-var cordova = {
-    plugins: {
-        barcodeScanner: {},
-        notification: {}
-    }
-};
-
+// Below do not work, temporary moved to cordova.js
+/*
 var localNotification = {
     cancel: function (ids, cb) {
         console.log("Local Notification: Cancel:", JSON.stringify(ids));
@@ -17,3 +12,4 @@ var localNotification = {
 };
 
 cordova.plugins.notification.local = localNotification;
+*/
